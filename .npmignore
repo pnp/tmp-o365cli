@@ -1,0 +1,17 @@
+.circleci
+.nyc_output
+.vscode
+coverage
+docs
+node_modules
+scripts/*
+!scripts/Register-O365CLICompletion.ps1
+src
+types
+.gitignore
+CONTRIBUTING.md
+commands.json
+tsconfig.json
+*.map
+*.spec.js
+test-projects

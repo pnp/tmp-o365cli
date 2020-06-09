@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "lib": ["es2015", "dom"],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true
+  },
+  "exclude": [
+    "./**/test-projects",
+    "./**/pcf-init/assets",
+    "./**/solution-init/assets",
+    "node_modules"
+  ]
+}
